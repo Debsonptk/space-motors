@@ -9,6 +9,9 @@ const Config = {
       // Converts 'true' to true and 'false' to false
     ),
   },
+  api: {
+    baseUrl: import.meta.env.VITE_API_URL ?? '',
+  },
 }
 
 export default Config
